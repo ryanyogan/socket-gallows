@@ -4,7 +4,7 @@ defmodule SocketGallows.MixProject do
   def project do
     [
       app: :socket_gallows,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.7",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
@@ -42,7 +42,7 @@ defmodule SocketGallows.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:hangman, "~> 0.1.0"}
+      {:hangman, "~> 0.1.1"}
     ]
   end
 
